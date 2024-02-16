@@ -1,2 +1,2 @@
-# My_Portfolio
+# myportfolio
 A personal software engineering portfolio
