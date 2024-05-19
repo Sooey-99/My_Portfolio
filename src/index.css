@@ -93,3 +93,23 @@ button:focus-visible {
   font-family:Arial, Helvetica, sans-serif;
   color: hsl(0, 5%, 79%);
 }
+
+footer {
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Additional styling for links in the footer */
+footer a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #535bf2;
+}
