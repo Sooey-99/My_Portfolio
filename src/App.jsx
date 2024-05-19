@@ -1,21 +1,18 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import Projects from './Projects.jsx'
-import Card from './Card.jsx'
+import React from 'react';
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+import Projects from './Projects.jsx';
 
 function App() {
-    return(
-        <>
-        <Header/>
-        <Projects/>
-
-        <Footer/>
-        </>
+    return (
+        <div>
+            <Header />
+            <div id="root">
+                <Projects />
+            </div>
+            <Footer />
+        </div>
     );
 }
 
-export default App
-
-
-// 1.  Nav using react router, dynamic rendering or another third party
-// 2. Render header & nav bar across all pages (Home, Projects, Contact)
+export default App;
