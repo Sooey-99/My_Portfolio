@@ -8,9 +8,7 @@ function App() {
         <>
         <Header/>
         <Projects/>
-        <Card/>
-        <Card/>
-        <Card/>
+
         <Footer/>
         </>
     );
