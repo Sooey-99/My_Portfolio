@@ -3,7 +3,7 @@ function Header() {
         <header>
             <h1>Émile Siou's Portfolio</h1>
             <nav>
-                <ul>
+                <ul className="horizontal-list">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
